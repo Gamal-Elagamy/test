@@ -11,6 +11,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+#navbarNav a:hover{
+  color: rgb(30, 100, 100);
+}
+
 #navbarNav a{
 color:var(--main-color);
 }
@@ -286,6 +290,11 @@ background-color: var(--main-color);
     color: #222;
     font-weight: 700;
     font-size: 16px
+}
+
+.nav-pills .nav-item .nav-link:hover{
+  color: rgb(30, 100, 100);
+
 }
 .client{
     background-color:#eee;
